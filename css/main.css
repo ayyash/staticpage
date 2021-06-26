@@ -1,0 +1,153 @@
+@import url(reset.css);
+
+:root {
+	/* why 62.5% */
+	font-size: 62.5%;
+
+	--space: 25px;
+	--halfspace: 10px;
+	--doublespace: 50px;
+
+	--theme-hue: 200;
+	--theme-saturation: 7%;
+	--link-color: #89C3F8;
+	--link-alt-color: #0085ff;
+	--link-hover-color: #16ecdb;
+
+}
+
+body {
+	font-family: Inter, sans-serif;
+	/* background-color: #151718; */
+	background-color: hsl(var(--theme-hue), var(--theme-saturation), 9%);
+	color: #ffffff;
+
+	/* reset body style */
+	padding-bottom: 50px;
+	font-size: 1.4rem;
+
+	background-image:
+		radial-gradient(circle at bottom right,
+			hsl(var(--theme-hue), var(--theme-saturation), 16%) 33%,
+			#00000000 33%);
+	min-height: 100vh;
+}
+
+
+header {
+	/* background-color: #2E3132; */
+	background-color: hsl(var(--theme-hue), var(--theme-saturation), 24%);
+	padding: var(--space);
+	display: flex;
+}
+
+/* header > div:last-child {
+	margin-left: auto;
+} */
+nav {
+	/* for self */
+	display: flex;
+	align-items: center;
+
+	/* for parent flex */
+	flex: auto;
+}
+nav .logo {
+	padding: 0 var(--space);
+}
+
+header .icon {
+	fill: #ffffff;
+
+}
+
+main {
+	padding: var(--space);
+	/* border: 1px solid pink; */
+
+}
+
+footer {
+	/* not the most ideal way to position */
+	padding: var(--space);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+
+	box-shadow: inset 0 -51px 28px -14px #000000;
+}
+
+p {
+	margin-block-end: var(--space);
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: var(--link-hover-color);
+}
+
+table {
+	width: 100%;
+
+}
+
+.space {
+	margin-bottom: var(--space);
+}
+
+.doublespace {
+
+	margin-bottom: var(--doublespace);
+}
+
+.halfspace {
+	margin-bottom: var(--halfspace);
+}
+
+.doticons {
+	transition: transform 0.2s;
+}
+.doticons:hover {
+	transform: rotate(450deg);
+}
+
+header .icon {
+	/* animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.64, 0.02, 0.58, 1);
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: logokeys; */
+	/* shortcut */
+	animation: logokeys 
+		2s 
+		cubic-bezier(0.64, 0.02, 0.58, 1) 
+		2s 
+		infinite 
+		alternate 
+		forwards;
+}
+
+@keyframes logokeys {
+	0%, 10% {
+		transform: skewX(20deg);
+	}
+	5%, 15% {
+		transform: skewX(-20deg);
+		
+	}
+
+	20%, 100% {
+		transform: skewX(0);
+	}
+	
+}
