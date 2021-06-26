@@ -5,7 +5,11 @@ Static page with HTML and CSS
 
 To build a page with as many concepts of HTML and CSS in a crash course.
 
+Site on netlify  
 https://blissful-clarke-ce7b4e.netlify.app/
+
+Site on figma  
+https://www.figma.com/file/xTHpeFlMlNOJ6OZ7bu7VfA/Staticsite?node-id=0%3A1 
 
 Concepts to cover (suggested outline):
 
