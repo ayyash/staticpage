@@ -50,3 +50,11 @@
 	font-size: 1.1rem;
 	color: #ffffff9e;
 }
+
+/* advanced clip path props of svg */
+.img-wrapper {
+	filter: drop-shadow(0 20px 5px rgba(0 0 0 / 0.6));
+}
+.img-wrapper .img-inner-wrapper {
+	clip-path: url(#my-clip-path);
+}
