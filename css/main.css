@@ -26,11 +26,7 @@ body {
 	padding-bottom: 50px;
 	font-size: 1.4rem;
 
-	background-image:
-		radial-gradient(circle at bottom right,
-			hsl(var(--theme-hue), var(--theme-saturation), 16%) 33%,
-			#00000000 33%);
-	min-height: 100vh;
+	
 }
 
 
@@ -63,7 +59,6 @@ header .icon {
 
 main {
 	padding: var(--space);
-	/* border: 1px solid pink; */
 
 }
 
@@ -75,8 +70,7 @@ footer {
 	left: 0;
 	right: 0;
 	z-index: 1000;
-
-	box-shadow: inset 0 -51px 28px -14px #000000;
+	background-color: hsl(var(--theme-hue), var(--theme-saturation), 9%);
 }
 
 p {
@@ -111,43 +105,3 @@ table {
 	margin-bottom: var(--halfspace);
 }
 
-.doticons {
-	transition: transform 0.2s;
-}
-.doticons:hover {
-	transform: rotate(450deg);
-}
-
-header .icon {
-	/* animation-duration: 2s;
-    animation-timing-function: cubic-bezier(0.64, 0.02, 0.58, 1);
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
-    animation-name: logokeys; */
-	/* shortcut */
-	animation: logokeys 
-		2s 
-		cubic-bezier(0.64, 0.02, 0.58, 1) 
-		2s 
-		infinite 
-		alternate 
-		forwards;
-}
-
-@keyframes logokeys {
-	0%, 10% {
-		transform: skewX(20deg);
-	}
-	5%, 15% {
-		transform: skewX(-20deg);
-		
-	}
-
-	20%, 100% {
-		transform: skewX(0);
-	}
-	
-}
