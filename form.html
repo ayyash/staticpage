@@ -8,7 +8,6 @@
 
 	<link href="//fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/form.css">
 	<title>Turtle</title>
 	<!-- add meta tag for favicon -->
 </head>
@@ -61,87 +60,83 @@
 				<fieldset>
 					<legend>Your details</legend>
 
-					<div class="space">
-						<label for="fname" class="label-title">Your name</label>
-						<div class="space">
-							<input class="w-100 input-field" type="text" id="fname"
+					<div >
+						<label for="fname" >Your name</label>
+							<input type="text" id="fname"
 								placeholder="your firstname and lastname">
-						</div>
-						<span class="small">Please enter somthing</span>
+						<span >Please enter somthing</span>
 					</div>
 
 
 
-					<div class="space">
+					<div >
 						<label>
-							<span class="label-title">Amount</span>
-							<input class="input-field amount-field" type="number" placeholder="Amount">
+							<span >Amount</span>
+							<input  type="number" placeholder="Amount">
 						</label>
 					</div>
 
-					<div class="space">
+					<div >
 						<label>
-							<span class="label-title">Date</span>
-							<input class="w-100 input-field" type="date" value="2021-05-01">
+							<span >Date</span>
+							<input  type="date" value="2021-05-01">
 						</label>
 					</div>
 
-					<div class="space">
+					<div >
 
-						<label for="category"><span class="label-title">Category</span></label>
-						<select class="w-100 input-field" id="category">
+						<label for="category"><span >Category</span></label>
+						<select  id="category">
 							<option value="1">Loan</option>
 							<option value="2">Groceries</option>
 							<option value="3">Rent</option>
 							<option value="4">Gifts</option>
 						</select>
 					</div>
-					<div class="space">
-						<label for="address"><span class="label-title">Description</span></label>
-						<textarea class="w-100 input-field description-field" placeholder="Enter your description"
+					<div >
+						<label for="address"><span>Description</span></label>
+						<textarea  placeholder="Enter your description"
 							id="address"></textarea>
 					</div>
-					<div class="space">
+					<div >
 						Type
 					</div>
-					<div class="space">
+					<div >
 						<label >
-
 						<input type="radio" name="chooseone" id="roses">
 						Expense</label>
 					</div>
-					<div class="space">
+					<div >
 						<input type="radio" name="chooseone" id="flowers">
 						<label for="flowers">Salary</label>
 					</div>
-					<div class="space">
+					<div >
 						<input type="radio" name="chooseone" id="grass">
 						<label for="grass">Repating</label>
 					</div>
-					<div class="space">
+					<div >
 						<input type="checkbox" id="iaccept">
 						<label for="iaccept">I Accept</label>
 					</div>
 
 				</fieldset>
 
-				<div class="doublespace">
-					<button class="btn btn-primary" type="submit">Save</button>
+				<div >
+					<button  type="submit">Save</button>
 
 					<!-- reset buttons are aweful for user experience -->
-					<button class="btn btn-normal" type="reset">Reset</button>
-					<button class="btn btn-plane" type="button">Cancel</button>
+					<button  type="reset">Reset</button>
+					<button  type="button">Cancel</button>
 
 				</div>
 				<div>
-					<a class="btn btn-normal" href="index.html">Home</a>
+					<a  href="index.html">Home</a>
 
 				</div>
 				<div>
-					<!-- harder to style -->
-					<!-- <input class="btn btn-primary" type="submit" value="Save">
-					<input class="btn" type="reset" value="Reset">
-					<input class="btn" type="button" value="Cancel"> -->
+					<input  type="submit" value="Save">
+					<input  type="reset" value="Reset">
+					<input  type="button" value="Cancel">
 				</div>
 			</form>
 		</article>
