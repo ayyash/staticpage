@@ -5,70 +5,71 @@ Static page with HTML and CSS
 
 To build a page with as many concepts of HTML and CSS in a crash course.
 
+https://blissful-clarke-ce7b4e.netlify.app/
+
 Concepts to cover (suggested outline):
 
 - HTML basic 
 - Mobile first design
-- VS Code tools
+- VS Code tools, figma, github
 - CSS simple
 - CSS advanced
 - MDN reference
 - Resources
-- IIS
 - Chrome devtools (or firefox devtools)
 - HTML semantic
+-----
 
-
-- details: css color
+- html tags
+- video and audio
+- forms
+- css color
 - rem and em
 - css specificity
-- flex box
+- flex box and grid
 - position: relative and absolute
 - block and inline-block
 - pseudo classes and elements
 
 
-MDN reference
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element 
+MDN reference  
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element  
 (visit site and give indications of beta, browser support, and deprecation)
 
-Input field types
+Input field types  
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
-Youtube crash course in HTML
+Youtube crash course in HTML  
 https://www.youtube.com/watch?v=qz0aGYrrlhU
 
 
-online editing
+online editing  
 https://codepen.io/
 
-CSS gradient resources
+CSS gradient resources  
 https://www.gradientmagic.com/
 
-
-Google fonts
+Google fonts  
 https://fonts.google.com/
 
-
-CSS specificity
+CSS specificity  
 https://specifishity.com/
 
-CSS Flexbox
+CSS Flexbox  
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-DEV
+DEV  
 https://dev.to/
 
-Fontawsome
+Fontawsome  
 https://fontawesome.com/
 
-Material icons
+Material icons  
 https://fonts.google.com/icons
 
-
-Clip path
-https://css-tricks.com/almanac/properties/c/clip-path/
+Clip path  
+https://css-tricks.com/almanac/properties/c/clip-path/  
 https://ishadeed.com/article/clip-path/
 
-Path maker
+Path maker  
 https://bennettfeely.com/clippy/
