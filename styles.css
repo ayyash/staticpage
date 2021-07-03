@@ -1,0 +1,22 @@
+.abdelrahman {
+	background-color: lightblue;
+	border-color: rgb(15, 200, 224);
+}
+
+.ayyash {
+	border: 5px solid rgba(37, 68, 206, 0);
+	padding: 10px;
+	margin-bottom: 100px;
+}
+
+
+.parent {
+	font-size: 30px;
+}
+.child {
+	font-size: 1.5em;
+}
+
+.child2 {
+	font-size: 1.5rem;
+}
